@@ -3,7 +3,7 @@ const app = express(); //iniciando o express
 
 //criando a rota inicial
 app.get("/", function(req,res){
-    res.send("<h1>Bem vindo ao meu site!</h1>");
+    res.send("<h1>Bem vindo ao meu site novamente!</h1>");
 })
 
 //rota do cadastro de produtos
@@ -34,7 +34,7 @@ app.listen(process.env.PORT ?? 3000,function(erro){  // cria a aplicação na po
     if (erro){
         console.log("Erro ao Iniciar.");
     }else{
-        console.log("Servidor Iniciado.");
+        console.log("Servior Iniciado.");
     }
 })
 
